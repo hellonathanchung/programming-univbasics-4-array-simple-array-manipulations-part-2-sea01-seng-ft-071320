@@ -7,10 +7,11 @@ array.insert(4, new_element)
 end
 
 def using_uniq(array)
-  array.flatten
+  array.uniq
 end
 
 def using_flatten
+  array.flatten!
 end
 
 def using_delete
